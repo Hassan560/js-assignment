@@ -49,7 +49,7 @@
 // alert(visit)
 
 // var birthYear = 1990
-// document.write("My birth year is " + birthYear ) 
+// document.write("My birth year is " + birthYear )
 // document.write(typeof birthYear)
 
 // var name = "john Doe"
@@ -97,7 +97,6 @@
 // document.write("Initial value: " + b)
 // document.write("<br>")
 
-
 // document.write("Value after increment is: " + ++b)
 // document.write("<br>")
 
@@ -113,9 +112,9 @@
 // var ticketPrice = 5
 // document.write("Total cost to buy " + ticketPrice + " tickets to a movie is " + ticketPrice * 600 + "PKR")
 
-// document.write(4 + " x " + 1 + " = " + 4*1) 
+// document.write(4 + " x " + 1 + " = " + 4*1)
 // document.write("<br>")
-// document.write(4 + " x " + 2 + " = " + 4*2) 
+// document.write(4 + " x " + 2 + " = " + 4*2)
 // document.write("<br>")
 // document.write(4 + " x " + 3 + " = " + 4*3)
 // document.write("<br>")
@@ -133,17 +132,83 @@
 // document.write("<br>")
 // document.write(4 + " x " + 10 + " = " + 4*10)
 
-var price1 = 650
-var price2 = 100
-document.write("Price of item 1 is " + price1)
-document.write("<br>")
-document.write("Quantity of item 1 is " + 3)
-document.write("<br>")
+// var price1 = 650;
+// var price2 = 100;
+// var item = 3;
+// var item2 = 7;
+// document.write("Price of item 1 is " + price1);
+// document.write("<br>");
+// document.write("Quantity of item 1 is " + item);
+// document.write("<br>");
 
-document.write("Price of item 2 is " + price2)
-document.write("<br>")
+// document.write("Price of item 2 is " + price2);
+// document.write("<br>");
 
-document.write("Quantity of item 2 is " + 7)
-document.write("<br>")
+// document.write("Quantity of item 2 is " + item2);
+// document.write("<br>");
 
-document.write("Total cost of your order is " + price1 * 3 * price2 * 7)
+// document.write("Shipping charges " + 100);
+// document.write("<br>");
+// document.write("<br>");
+
+// var mul = price1 * item;
+// var mul1 = price2 * item2;
+// var sum = mul + mul1 + 100;
+// console.log(sum);
+
+// document.write("Total cost of your order is " + sum);
+
+// var marks = 980;
+// var obtained = 804;
+// var per = obtained / marks * 100
+// document.write("Total marks: " + marks)
+// document.write("<br>")
+// document.write("Marks obtained: " + obtained)
+// document.write("<br>")
+// document.write("Percentage " + per)
+// document.write("<br>")
+
+// chapter 6-9
+
+// var a = 10;
+
+// document.write("Result:");
+// document.write("<br>");
+// document.write("The value of a is: " + a);
+// document.write("<br>");
+// document.write("<br>");
+// document.write("The value of ++a is: 11");
+// document.write("<br>");
+// document.write("Now the value of a is: " + ++a);
+// document.write("<br>");
+// document.write("<br>");
+// document.write("The value of a++ is: 11");
+// document.write("<br>");
+// document.write("Now the value of a is: " + a++);
+// document.write("<br>");
+// document.write("<br>");
+// document.write("The value of --a is: 11");
+// document.write("<br>");
+// document.write("Now the value of a is: " + --a);
+// document.write("<br>");
+// document.write("<br>");
+
+// var a = 2,
+//   b = 1;
+// var result = --a - --b + ++b + b--;
+//             //   1  -  0  +  1  +  1
+// console.log(result)
+
+// document.write(--a);
+// document.write("<br>");
+// document.write(--a - --b);
+// document.write("<br>");
+// document.write(--a - --b + ++b);
+// document.write("<br>");
+// document.write(--a - --b + ++b + b--);
+
+
+// var userInput = prompt("Enter your name")
+// alert("Welcome to you " + userInput )
+
+// var user = +prompt("Enter your number")
